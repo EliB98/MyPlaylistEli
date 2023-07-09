@@ -1,0 +1,186 @@
+body {
+  background-color: rgb(19, 18, 18);
+}
+/*Parte del aside*/
+.spoty{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: #eeeedd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ladoinicio{
+  width: 400px;
+  height: 100%;
+  display: grid;
+  grid-column: 1 / span 1;
+  grid-row: 2/ span 2;
+}
+
+.nameplayL{
+  padding: 8px;
+  color: #eeeedd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nameList{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background:#2e2e2e80;
+  border-radius: 12px;
+  color:#eeeedd;
+  display: grid;
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  align-items: center;
+  height: 35%;
+}
+/*AQUI SE DISEÑA LA PARTE DE MI BIBLIOTECA DE CANCIONES*/
+.biblio{
+  padding-left: 10px;
+  padding-top: 10px;
+  background:#2e2e2e80;
+  border-radius: 12px;
+  color:#eeeedd;
+  display: grid;
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  height: 64%;
+}
+
+.inicio{
+  background-color: #2b2a2a00;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  text-decoration: none; 
+  padding: 12px 30px;
+  padding-right: 80%;
+  border-radius: 12px;
+  text-align: center;
+}
+.inicio i{
+  align-items: start;
+  text-align: center;
+}
+
+.inicio:hover {background-color: #4CAF50;}
+
+.buscar{
+  background-color: #2b2a2a00;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  text-decoration: none; 
+  padding: 12px 30px;
+  padding-right: 80%;
+  border-radius: 12px;
+}
+.buscar:hover {background-color: #4CAF50;}
+
+.boton1{
+  background-color: #52524e88;
+  padding: 8px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.like{
+  background-color: #2b2a2a00;
+  margin-top: 25px;
+  padding: 20px 30px;
+  padding-right: 50%;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  text-decoration: none; 
+}
+
+.like:hover {background-color: #4CAF50;}
+
+.plist{
+  background-color: #2b2a2a00;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  text-decoration: none; 
+  padding: 20px 30px;
+  padding-right: 50%;
+  border-radius: 12px;
+}
+.plist:hover {background-color: #4CAF50;}
+
+/*PARTE DONDE VA LA LISTA DE CANCIONES*/
+.bod{
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 100%;
+  grid-column: 2/ span 3;
+  grid-row: 1;
+  height: 100%;
+}
+.Playlistname{
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  background-color: orangered;
+  background-image: linear-gradient(to bottom, orangered ,  #2b2a2a);
+  border-radius: 12px;
+  grid-column: 2/ span 3;
+  grid-row: 1;
+  height: 100%;
+}
+
+.img{
+  width: 200px;
+  height: 200px;
+}
+
+.imagen{
+  display: grid;
+  padding: 10px;
+  grid-column: 1 / span 1;
+  grid-row: 1;
+  align-items: center;
+  text-align: start;
+}
+
+.infoplay{
+  display: grid;
+  grid-column: 2 / span 1;
+  padding: 10px;
+}
+  
+.container{
+  font-size: 20px;
+  height: 100%;
+  display: grid;
+  grid-column: 1/ span 2;
+  grid-row: 2/ span 2;
+}
+
+/*BOTONES AGREGAR Y BORRAR CANCIONES*/
+.clorButon{
+  border-radius: 15px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+.colorButon{
+border-radius: 15px;
+background-color: #4CAF50;
+border: none;
+color: white;
+text-decoration: none;
+}
+
+/*ESTILO DE LAS IMAGENES DE MI PLAYLIST*/
+.imageSize{
+  width: 100px;
+}
